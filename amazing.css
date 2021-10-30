@@ -1,0 +1,45 @@
+img{
+border-color: red;
+border-width:1px solid;
+}
+  h1 {
+  	background-color: black;
+  }
+  h1,h2{
+  	color : grey;
+  }
+  .s.h2 {
+  	border-color: green;
+  }
+   #mon > span {
+   	color: pink;
+   }
+   #mon div {
+   	border-color: red;
+   	border-width: 1px solid;
+   }
+   .m > div > span {
+   	background-color: yellow ;
+   }
+   .w h2:hover {
+	color: green;
+   }
+   .m h2:hover,#tue h2:hover{
+   	color: red;
+   }
+   h1,h2{
+   	color: pink;
+   }
+   li: first-of-type{
+   	font-weight: bold;
+   }
+   li: first-of-type + li{
+   	color:red;
+   }
+   li: nth-of-type(9) {
+	color:blue;
+   }
+   li: nth-of-type(5n+3){
+   	color:green;
+   }
+
